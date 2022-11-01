@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100vh;
+}
+
+.cart-img {
+  height: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .cart-container {
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .cart-img {
+    height: 300px;
+  }
+}
